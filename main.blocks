@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_gesture_event" id="*_Ttk~)bGaoX!v{rw2.r" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="basic_show_icon" id="WQtpj_7mufePr+BSbHZG"><field name="i">IconNames.Sad</field><next><block type="SoundExpression_playUntilDone" id="^!3F+ojSYTLf=@O$ge8U"><field name="this">soundExpression.sad</field><next><block type="basic_show_icon" id="LJkf3[fT$N1)TC/jE]4w"><field name="i">IconNames.Asleep</field></block></next></block></next></block></statement></block><block type="input_logo_event" id="JF?,VBKJY[ochx|PhT!9" x="435" y="16"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="basic_show_icon" id="ZrZ%l#mU^_)FXBbO%$Ue"><field name="i">IconNames.Heart</field><next><block type="SoundExpression_playUntilDone" id="GxieG)9W,Yz8!j`0r|us"><field name="this">soundExpression.hello</field><next><block type="basic_show_icon" id="z}VRi2XW{*lcCb^5j5d9"><field name="i">IconNames.Asleep</field></block></next></block></next></block></statement></block><block type="pxt-on-start" id="#ciM`{mS6=.C9xjVHGpA" x="894" y="54"><statement name="HANDLER"><block type="basic_show_icon" id="Z:4ytS``6Q8wns;5L,~y"><field name="i">IconNames.Asleep</field></block></statement></block><block type="device_button_event" id="tG$UJ*hy-xwr:=(TxLKS" x="-63" y="301"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="Px#;cGGev$juKoji^$zt"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # # # # # 
+        . . # . . 
+        . . # . .
+        `</field></block></statement></block><block type="device_button_event" id="og51;76!pm967`hb!jdB" x="259" y="291"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="1m!`*i(HL@RmCEcS0QnV"><field name="LEDS">`
+        # # # # # 
+        . . # . . 
+        . # . # . 
+        . . # . . 
+        . # # # .
+        `</field></block></statement></block></xml>
